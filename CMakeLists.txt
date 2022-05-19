@@ -19,6 +19,7 @@ pybind11_add_module(classEnum ${CMAKE_SOURCE_DIR}/pybindCpp/classEnum.cpp)
 # pybind11_add_module(exception ${CMAKE_SOURCE_DIR}/pybindCpp/exception.cpp)
 pybind11_add_module(smartPointer ${CMAKE_SOURCE_DIR}/pybindCpp/smartPointer.cpp)
 pybind11_add_module(callback ${CMAKE_SOURCE_DIR}/pybindCpp/callback.cpp)
+pybind11_add_module(tclmenu ${CMAKE_SOURCE_DIR}/pybindCpp/tclmenu.cpp)
 
 
 
